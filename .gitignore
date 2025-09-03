@@ -1,0 +1,15 @@
+Ignore macOS system files
+
+.DS_Store
+
+Ignore VSCode settings
+
+.vscode/
+
+Ignore other common files
+
+*.log node_modules/ dist/ .env
+
+Ignore temporary files
+
+*.tmp *.bak
