@@ -1,4 +1,16 @@
 .box{
-    width: 50%;
+    flex: 1 1 20%;
+    box-sizing: border-box;
+    border: 2px solid white;
     height: 400px;
+    background-color: steelblue;
+    
 }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1025px)
